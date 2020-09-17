@@ -74,3 +74,5 @@ We utilized Pandas in Jupyter Notebook to extract and clean the csv files. Clean
 2.	We then created our DataBase and named our tables and imported the datasets.
 ![Covid Extraction](Images/Schema.png) 
 ![Covid Extraction](Images/ImportData.png) 
+
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
