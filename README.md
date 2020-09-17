@@ -12,6 +12,7 @@
 
 ## Data Format ##
 Data Soft – Covid-19 Pandemic -Worldwide can be exported by CSV, JSON, or Excel. However, extracting the size and amount of data made JSON difficult. We decided to use CSV. Original file contained 186k records.
+
 *"This is the data for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL)."*
 
 - [Data Soft](https://public.opendatasoft.com/explore/dataset/covid-19-pandemic-worldwide-data/export/?disjunctive.zone&disjunctive.category)
