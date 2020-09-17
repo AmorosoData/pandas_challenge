@@ -49,4 +49,4 @@ We utilized Pandas in Jupyter Notebook to extract and clean the csv files. Clean
 16.	Sort “Country/Region” alphabetical, make sure this make this sorted list a new tabl
 17.	Write new CSV, Index=False, header=True
 #### Extraction – Screenshot 1: Loading Population ####
-:[Population Extraction](/Users/namoroso/Documents/Project/ETL-Project/Images/PopulationImport.png)
+:[Population Extraction](../PopulationImport.png)
