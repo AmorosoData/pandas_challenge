@@ -3,8 +3,6 @@
 ## Group - The Bootcamp ## 
 Austin, Nick, Rob, Paul
 
-:earth_americas: :biohazard: :earth_americas: :biohazard:
-
 ---------------------------------------------------------------
 #### Making personal branch (recap):
 - clone repo to local
@@ -28,3 +26,27 @@ Kaggle - Our second source of data comes from Kaggle: Countries population by ye
 - [Kaggle](https://www.kaggle.com/eng0mohamed0nabil/population-by-country-2020)
 ---------------------------------------------------------------
 
+## Data Extraction - Cleanup/Transformation ##
+
+We utilized Pandas in Jupyter Notebook to extract and clean the csv files. Cleaning the data required us to drop unnecessary columns, renaming columns, and dropping Country’s that did not appear in both datasets. We built a junction table that included all countries for our join in postgresql database.
+
+#### Extraction – Step-by-Step Population Extraction: ####
+1. Population Extraction
+2.	Import dependencies
+3.	Set the path for the csv
+4.	Read CSV in, encode in utf-8
+5.	Drop no populated rows (if there is any)
+6.	Drop non-useful columns:
+7.	Yearly Change
+8.	Net Change
+9.	Land Area (Km²)
+10.	Migrants (net)
+11.	Fert. Rate
+12.	Med. Age
+13.	Urban Pop %
+14.	World Share
+15.	Rename “Country (or dependency)” to “Country/Region” to work with another CSV file
+16.	Sort “Country/Region” alphabetical, make sure this make this sorted list a new tabl
+17.	Write new CSV, Index=False, header=True
+#### Extraction – Screenshot 1: Loading Population ####
+:[Population Extraction](/Users/namoroso/Documents/Project/ETL-Project/Images/PopulationImport.png)
