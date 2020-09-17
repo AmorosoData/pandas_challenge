@@ -75,4 +75,4 @@ We utilized Pandas in Jupyter Notebook to extract and clean the csv files. Clean
 ![Covid Extraction](Images/Schema.png) 
 ![Covid Extraction](Images/ImportData.png) 
 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="220" height="220" />
