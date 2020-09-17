@@ -50,3 +50,27 @@ We utilized Pandas in Jupyter Notebook to extract and clean the csv files. Clean
 17.	Write new CSV, Index=False, header=True
 #### Extraction – Screenshot 1: Loading Population ####
 ![Population Extraction](Images/PopulationImport.png)
+
+#### Extraction – Step-by-Step Covid 19 Extraction: ####
+1.	Import dependencies
+2.	Create CSV Path
+3.	Create Dataframe
+4.	Drop unwanted columns, keeping Country and setting filter to capture “as of date”
+5.	Used a groupby function to create object we can sum to capture duplicate country’s found in original dataset. 
+6.	Renamed Columns
+7.	Exported DataFrame to .csv.
+#### Extraction – Screenshot 2: Loading Covid 19 ####
+![Covid Extraction](Images/CovidImport.png)
+
+#### Junction Table #### 
+- Joined Covid 19 Data, and Population Data. Dropped all columns except Country.
+#### Junction Table - Screenshot #### 
+![Covid Extraction](Images/Junction.png)
+
+---------------------------------------------------------------
+## Creating the Database: Step-by-Step ##
+1.	First, we created an ERD to outline our process and to identify Primary Keys and Foreign Keys where we could join our datasets.
+![Covid Extraction](Images/ERD.png) 
+2.	We then created our DataBase and named our tables and imported the datasets.
+![Covid Extraction](Images/Schema.png) 
+![Covid Extraction](Images/ImportData.png) 
